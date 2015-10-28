@@ -1,4 +1,5 @@
 <manifest>
+  <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" />
   <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" />
   <project path="device/generic/x86" name="CyanogenMod/android_device_generic_x86" />
 </manifest>
