@@ -1,0 +1,3 @@
+<manifest>
+  <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+</manifest>
