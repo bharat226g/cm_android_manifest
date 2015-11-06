@@ -1,4 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="korg"
+           fetch="git://android.git.kernel.org/"
+           review="review.source.android.com" />
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-2.3.7_r1" />
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.com" />
+
+  <default revision="gb-release-7.2"
+           remote="github" />
+
   <project path="device/advent/vega" name="CyanogenMod/android_device_advent_vega" />
   <project path="device/bn/encore" name="CyanogenMod/android_device_bn_encore" />
   <project path="device/commtiva/z71" name="CyanogenMod/android_device_commtiva_z71" />
